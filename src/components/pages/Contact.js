@@ -10,7 +10,6 @@ export default function Contact() {
             <p>NIP: 813-282-95-44</p>
             <p>email: email@poczta.pl</p>
             <p>telefon: +48 605823926</p>
-            <p>adres: ???</p>
         </div>
         </>
     ) 

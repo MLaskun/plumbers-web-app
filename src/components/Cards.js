@@ -5,7 +5,7 @@ import './Cards.css'
 function Cards() {
   return (
     <div className='cards'>
-        <h1>Nasze prace</h1>
+        <h1>Prace wykonane przez firmę SANIMAX</h1>
         <div className='cards__container'>
             <div className='cards__wrapper'>
                 <ul className='cards__items'>
