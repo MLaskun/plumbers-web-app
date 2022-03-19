@@ -31,6 +31,8 @@
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
+    height: 90vh;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   }
 
   .contact > h1 {

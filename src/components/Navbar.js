@@ -42,7 +42,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
             <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
-                605 823 926  576 007 167
+                | 605 823 926 || 576 007 167 |
               </Link>
             </li>
           </ul>

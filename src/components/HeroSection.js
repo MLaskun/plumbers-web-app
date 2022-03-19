@@ -7,7 +7,7 @@ function HeroSection() {
   return (
     <div className='hero-container'>
         <h1>O nas</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam diam neque, lacinia ut turpis in, varius pellentesque libero. Aliquam libero turpis, hendrerit id purus sit amet, sagittis sodales tortor. Sed scelerisque lobortis enim, a tempor dui maximus commodo. Praesent varius ex et orci efficitur, ut viverra ligula accumsan. Suspendisse pharetra nisi sed erat imperdiet, quis volutpat neque facilisis. Mauris ultrices in leo et hendrerit. Sed blandit consequat elit id dignissim.</p>
+        <p>Jesteśmy serwisem hydraulicznym który upora się z powodzeniem z każdą hydrauliczną usterką. Świadczymy swoje usługi na terenie Rzeszowa i okolic. Nasza firma posiada wieloletnie doświadczenie dzięki czemu  sprawdzi się nie tylko w przypadku drobnych awarii ale również przy planowanych remontach czy modernizacji sieci wodnej oraz kanalizacyjnej. Zgłoś się po pomoc do nas  i zapomnij o kłopotliwych usterkach.</p>
         <div className='hero-btns'>
         <Button
           className='btns'

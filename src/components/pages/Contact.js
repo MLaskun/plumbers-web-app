@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../App.css';
-import Footer from '../Footer';
 
 export default function Contact() {
     return(
@@ -8,8 +7,9 @@ export default function Contact() {
         <div className='contact'>
             <h1>Kontakt</h1>
             <p>NIP: 813-282-95-44</p>
-            <p>email: email@poczta.pl</p>
-            <p>telefon: +48 605823926</p>
+            <p>email: SANIMAX2557@wp.pl</p>
+            <p>telefon: +48 605 823 926</p>
+            <p>telefon2: +48 576 007 167</p>
         </div>
         </>
     ) 
