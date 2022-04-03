@@ -9,6 +9,10 @@ function Navbar() {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <>
       <nav className='navbar'>
@@ -25,11 +29,11 @@ function Navbar() {
                 Strona Główna
               </Link>
             </li>
-            {/* <li className='nav-item'>
+            <li className='nav-item'>
               <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
                 Usługi
               </Link>
-            </li> */}
+            </li>
             <li className='nav-item'>
               <Link to='/gallery' className='nav-links' onClick={closeMobileMenu}>
                 Galeria
@@ -41,7 +45,7 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-            <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
                 | 605 823 926 || 576 007 167 |
               </Link>
             </li>
