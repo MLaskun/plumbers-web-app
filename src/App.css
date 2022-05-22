@@ -22,6 +22,36 @@
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .services > h1 {
+    color: #fff;
+    font-size: 70px;
+  }
+
+  .services  > h2 {
+    color: #bdbc30;
+    font-size: 40px;
+  }
+
+  .services  > h3 {
+    margin-top: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    text-decoration-line: underline;
+  }
+
+  .services > ul {
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  .services > ul > li {
+    font-size: 30px;
   }
   
   .contact {
@@ -31,11 +61,13 @@
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   }
 
   .contact > h1 {
+    color: #fff;
     font-size: 100px;
     padding: 50px;
   }
